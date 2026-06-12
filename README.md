@@ -38,15 +38,15 @@
 
 | 統計量 | 値 |
 |---|---|
-| 平均値 | (ここに記入) |
-| 中央値 | (ここに記入) |
-| 最大値 | (ここに記入) |
-| 最小値 | (ここに記入) |
-| 標準偏差 | (ここに記入) |
+| 平均値 | (59.05) |
+| 中央値 | (59) |
+| 最大値 | (87) |
+| 最小値 | (28) |
+| 標準偏差 | (12.05) |
 
 **問い:** 平均値と中央値を比べて、気づいたことを1〜2文で書いてください。
 
-(ここに解答を記入)
+(ほとんど変わらない)
 
 ## 課題2:分布を可視化しよう(基礎)
 
@@ -54,11 +54,11 @@
 
 作成したら、下の行を書き換えて画像を表示させてください。
 
-![ヒストグラム](output/histogram.png)
+![ヒストグラム](https://lh3.googleusercontent.com/gg-dl/AFfU-fKSg1VP9d_1NeTzQ_1A8XLdY-1ERwg0At2ZobWE8UFamHHRqujMF3getdhS5bSsoB18U6ee-AUwd7FE0aLHS3NuCBwWZs9Dt2ImE9T6v6sMk-CGV3Zcj16IivK0O5kgqvHGmaL-HXBbnpAtCxwWaqZ8JPbQlFgx3Wfo_O4Rjq0bIwni=s1600)
 
 **問い:** ヒストグラムの形から、このクラスの得点分布について分かることを書いてください。
 
-(ここに解答を記入)
+(平均点付近の人数が多くなる山型の分布になった)
 
 ## 課題3:関係を調べよう(応用)
 
@@ -67,19 +67,19 @@
 1. 横軸:学習時間、縦軸:テスト得点 → `output/scatter_study.png`
 2. 横軸:睡眠時間、縦軸:テスト得点 → `output/scatter_sleep.png`
 
-![散布図(学習時間)](output/scatter_study.png)
-![散布図(睡眠時間)](output/scatter_sleep.png)
+![散布図(学習時間)](https://lh3.googleusercontent.com/gg-dl/AFfU-fJ2xrCwv5MCTG9lPzJ7w3lqpw6EIGxQZeHZcH_7Nv-xP1BjzyxR8MMQtNRe-nUhmm6WbJUwhTT-IUDzwNnovqtoPJ0LSezmvEiJfSXiFiVKqMu2MmvRwJMmMugPQ10NhdfsH-Z-cX6MEXqEgIBLMJnYwRocpruL2poWYwmnpSusZiEgvA=s1600)
+![散布図(睡眠時間)](https://lh3.googleusercontent.com/gg-dl/AFfU-fI48IesDfgVkgojje6RsbyayifQK5Yuma0AGi5BTpm-DzLovnlhdTPm8e1rvfd7Rpfdd5Z9iS_yMt_1cY9eRogteALMVUPV1mf21-6CZv93OpEHg4yR1pYxrW8WgC2TJ5OSN4R-D8G_ePLdj2GvWuFq9tMnL8veMgll5F7C250vQsWt2w=s1600)
 
 さらに、それぞれの**相関係数**を求めて記入してください。
 
 | 組み合わせ | 相関係数 |
 |---|---|
-| 学習時間 × テスト得点 | (ここに記入) |
-| 睡眠時間 × テスト得点 | (ここに記入) |
+| 学習時間 × テスト得点 | (0.86) |
+| 睡眠時間 × テスト得点 | (0.01) |
 
 **問い:** 2つの散布図と相関係数を比べて、分かったことを2〜3文で説明してください。
 
-(ここに解答を記入)
+(学習時間はテスト得点と強い相関があり、学習時間が多くなればなるほどテストの得点も高くなるが、睡眠時間とテスト得点は相関がほぼなく、睡眠時間が多くなってもテストの得点が高くなるとは限らない)
 
 ## 課題4:考察(発展)
 
